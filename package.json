@@ -1,0 +1,20 @@
+{
+  "name": "tiktok-scraper",
+  "version": "1.0.0",
+  "description": "A script to scrape TikTok video count for a specific effect and store in SQLite with an API",
+  "main": "scrape_tiktok_videos.js",
+  "scripts": {
+    "start": "node scrape_tiktok_videos.js",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.0",
+    "googleapis": "^150.0.1",
+    "puppeteer": "^23.5.0",
+    "sqlite3": "^5.1.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
